@@ -1,0 +1,23 @@
+POST http://localhost:3000/products/add
+Content-Type: application/json
+
+{
+    "name":"Tanh1",
+    "gia": 12001
+}
+
+###
+GET http://localhost:3000/products/
+
+
+###
+PUT http://localhost:3000/products/65fa818db49764f0b625e620
+Content-Type: application/json
+
+{
+    "name" : "Sản phẩm 1",
+    "gia": 1000
+}
+
+###
+DELETE http://localhost:3000/products/65fa819ab49764f0b625e628
